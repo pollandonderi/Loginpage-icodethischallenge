@@ -1,0 +1,65 @@
+/* Add CSS here */
+*{
+    margin: 0;
+    padding: 0;
+}
+img{
+    width: 100%;
+}
+.flex{
+    display: flex;
+    flex-direction: column;
+}
+.input-space{
+    padding: 1em;
+    margin-block: 1.4em;
+}
+.image{
+    display: none;
+}
+button{
+    width:100%;
+    border: none;
+}
+.linkedin{
+    background-color: rgb(71, 71, 252);
+}
+.login{
+    background-color: rgb(252, 219, 71);
+}
+.words{
+    max-width: 500px;
+    margin-inline: 0 auto;
+    padding: 2em;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+@media (min-width:45em) {
+    .overall-container{
+        height: 100svh;
+        background-color: rgb(182, 128, 27);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .main-container{
+        
+        padding: 1em;
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+   
+   .image{
+    display: block;
+   }
+   .words{
+    padding-left: 1.4em;
+   }
+}
